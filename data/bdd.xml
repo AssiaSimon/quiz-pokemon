@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <question>
+        <id>1</id>
+        <image>img/q1.png</image>
+        <contenu>Quel est le nom du ce pokémon ? </contenu>
+        <response1>Bulbizarre</response1>
+        <response2>Chenipan</response2>
+        <response3>Roucool</response3>
+        <response4>je ne sais pas</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>2</point>
+        <theme>Plante</theme>  
+        <explication>L'image associée à cette question montre un Pokémon qui est <strong>Bulbizarre
+        </strong>, un Pokémon de type Plante et Poison. C'est l'un des trois Pokémon de départ dans la 
+        région de Kanto, en compagnie de Salamèche et Carapuce.</explication>   
+    </question>      
+    <question>
+        <id>2</id>
+        <image>img/q2.png</image>
+        <contenu>De quel type est Nidoran ?</contenu>
+        <response1>Feu</response1>
+        <response2>Vol</response2>
+        <response3>Acier/Vol</response3>
+        <response4>Poison</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>2</point> 
+        <theme>Poison</theme>
+        <explication>Ce Pokémon est bien connu pour sa capacité à injecter du poison grâce à ses épines, 
+        ce qui en fait un Pokémon de type Poison.</explication>         
+    </question>
+    <question>
+        <id>3</id>
+        <image>img/q3.png</image>
+        <contenu>Lequel de ces Pokémon ne vit pas dans l'eau ?</contenu>
+        <response1>A - Bekipan</response1>
+        <response2>B - Kyogre</response2>
+        <response3>C - Tentacruel</response3>
+        <response4>D - Magicarpe</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>2</point>
+        <theme>Eau</theme> 
+        <explication>Parmi les Pokémon proposés :  <br /><br /> 
+        - <strong>Kyogre</strong> est un Pokémon légendaire de type Eau, donc il vit dans l'eau.  <br /><br /> 
+        - <strong>Tentacruel</strong> est également un Pokémon de type Eau, vivant principalement 
+        dans l'eau.  <br /><br /> 
+        - <strong>Magicarpe</strong> est un Pokémon de type Eau, qui vit et nage dans les rivières 
+        et les océans.  <br /><br /> 
+        - <strong>Bekipan</strong>, en revanche, est un Pokémon de type Plante et Vol, et il ne vit
+         pas dans l'eau contrairement aux autres Pokémon de cette question.
+        </explication>        
+    </question>
+    <question>
+        <id>4</id>
+        <image>img/q4.png</image>
+        <contenu>Lequel de ces Pokémon est de type Feu ?</contenu>
+        <response1>A - Insolourdo</response1>
+        <response2>B - Eoko</response2>
+        <response3>C - Vacilys</response3>
+        <response4>D - Magmar</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>1</point> 
+        <theme>Feu</theme> 
+        <explication><strong>Magmar</strong> est un Pokémon de type Feu, connu pour sa capacité à cracher des flammes et à 
+        vivre dans des endroits très chauds. En revanche, les autres Pokémon proposés : <br /> <br /> 
+        <!-- <br>   : HTML5, fonctionne sans / -->
+        - <strong>Insolourdo</strong> (de type Psy et Acier), <br /> <br /> 
+        - <strong>Eoko</strong> (de type Spectre et Feu, mais le nom fait probablement référence à un Pokémon moins connu), <br /> <br /> 
+        - <strong>Vacilys</strong> (de type Plante et Roche),ne sont pas de type Feu.
+        </explication>       
+    </question>
+     <question>
+        <id>5</id>
+        <image>img/q5.png</image>
+        <contenu>Lequel de ces Pokémon est le plus gros ?</contenu>
+        <response1>A - Hariyama</response1>
+        <response2>B - Wailord</response2>
+        <response3>C - Spoink</response3>
+        <response4>D - Libegon</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>4</point>
+        <theme>Eau</theme>
+        <explication><strong>Wailord</strong> est un Pokémon de type Eau, et c'est l'un des Pokémon 
+        les plus grands en termes de taille. Il mesure environ 14 mètres de long, ce qui en fait un 
+        Pokémon beaucoup plus grand que les autres de cette liste. <br /><br /> 
+        - <strong>Hariyama</strong> mesure environ 2,3 mètres, <br /><br /> 
+        - <strong>Spoink</strong> est un Pokémon petit, mesurant environ 0,6 mètre, <br /><br /> 
+        - <strong>Libegon</strong> mesure environ 1,2 mètre. <br /><br /> 
+        Comparé à ces derniers, Wailord est de loin le plus grand Pokémon proposé ici.
+        </explication>        
+    </question>
+    <question>
+        <id>6</id>
+        <image>img/q6.png</image>
+        <contenu>Quel Pokémon est de type Électrik ?</contenu>
+        <response1>A - Salamèche</response1>
+        <response2>B - Pikachu</response2>
+        <response3>C - Bulbizarre</response3>
+        <response4>D - Rondoudou</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>1</point>
+        <theme>Electrik</theme>
+        <explication><strong>Pikachu</strong> est l'un des Pokémon les plus emblématiques et populaires 
+        de la franchise Pokémon. C'est un Pokémon de type Électrik. Il est souvent représenté avec des
+         joues rouges qui peuvent stocker de l'électricité et générer des décharges électriques. 
+         Contrairement à <strong>Salamèche</strong>(Feu), <strong>Bulbizarre</strong> (Plante/Poison), 
+         et <strong>Rondoudou</strong> (Fée/Normal), Pikachu est le seul de cette liste 
+         à être de type Électrik.</explication>    
+    </question>
+    <question>
+        <id>7</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle attaque est typique du type Électrik ?</contenu>
+        <response1>Déflagration</response1>
+        <response2>Psyko</response2>
+        <response3>Tonnerre</response3>
+        <response4>Tranch’Herbe</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>1</point>
+        <theme>Electrik</theme> 
+        <explication><strong>Tonnerre</strong> est une attaque emblématique du type <strong>Électrik</strong>. 
+        Cette attaque est souvent utilisée par des Pokémon tels que <strong>Pikachu</strong> et autres Pokémon 
+        de type Électrik. Elle inflige de puissants dégâts et est particulièrement redoutable contre les Pokémon 
+        de type Eau. <br /><br /> 
+        En revanche, <strong>Déflagration</strong> est une attaque de type Feu, <strong>Psyko</strong> est une attaque 
+        de type Psy, et <strong>Tranch'Herbe</strong> est de type Plante, ce qui les rend inappropriées pour un Pokémon
+        de type Électrik.
+        </explication>        
+    </question>
+    <question>
+        <id>8</id>
+        <image>img/q8.png</image>
+        <contenu>Quel est le type de Abra ?</contenu>
+        <response1>Psy</response1>
+        <response2>Feu</response2>
+        <response3>Combat</response3>
+        <response4>Électrik</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point>
+        <theme>Psy</theme> 
+        <explication>
+        <strong>Abra</strong> est un Pokémon de type <strong>Psy</strong>. Il est connu pour ses capacités 
+        télékinétiques et ses pouvoirs psychiques. Abra évolue en <strong>Kadabra</strong>, puis en <strong>Alakazam</strong>,
+         deux Pokémon également de type Psy. Il n'a pas de lien avec les types Feu, Combat ou Électrik, ce qui en fait un pur 
+         Pokémon de type Psy.
+        </explication>        
+    </question>
+    <question>
+        <id>9</id>
+        <image>img/aucune.png</image>
+        <contenu>Contre quel type le type Électrik est-il fort ?</contenu>
+        <response1>Eau</response1>
+        <response2>Feu</response2>
+        <response3>Plante</response3>
+        <response4>Sol</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>3</point>
+        <theme>Electrik</theme> 
+        <explication>Le type <strong>Électrik</strong> est particulièrement fort contre le type <strong>Eau</strong>. 
+        Les attaques de type Électrik, telles que <strong>Tonnerre</strong>, infligent des dégâts accrus aux Pokémon 
+        de type Eau, ce qui en fait unefaiblesse notoire pour ce type. En revanche, les Pokémon de type <strong>Sol</strong>
+         sont résistants aux attaques de type Électrik, et ne subissent pas de dégâts de ces attaques.
+        </explication>        
+    </question>
+    <question>
+        <id>10</id>
+        <image>img/q10.png</image>
+        <contenu>Lequel de ces Pokémon n’est pas de type électrik ?</contenu>
+        <response1>A - Lixy</response1>
+        <response2>B - Voltali</response2>
+        <response3>C - Élektek</response3>
+        <response4>D - Roucool</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>3</point>
+        <theme>Electrik</theme>  
+        <explication>Parmi les Pokémon proposés, <strong>Roucool</strong> est un Pokémon de type <strong>Normal/Vol</strong>
+         et ne possède aucune affinité avec le type <strong>Électrik</strong>. En revanche, <strong>Lixy</strong>, <strong>
+         Voltali</strong>, et <strong>Élektek</strong> sont tous des Pokémon de type Électrik. Lixy évolue en Luxio puis en 
+         Luxray, Voltali est l'évolution d'Évoli, et Élektek est un Pokémon de type Électrik pur.
+        </explication>       
+    </question>
+    <question>
+        <id>11</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle est une attaque typique du type Psy ?</contenu>
+        <response1>Étincelle</response1>
+        <response2>Griffe</response2>
+        <response3>Psyko</response3>
+        <response4>Flammèche</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>2</point>
+        <theme>Psy</theme>  
+        <explication><strong>Psyko</strong> est une attaque typique du type <strong>Psy</strong>. Cette attaque inflige des dégâts
+        en fonction des statistiques spéciales du Pokémon attaquant et est très efficace contre les Pokémon de type
+        <em>Combat</em>, qui sont particulièrement sensibles aux attaques de type Psy. En revanche, les autres attaques proposées, 
+        telles que <strong>Étincelle</strong> (type Électrik), <strong>Griffe</strong> (type Normal) et <strong>Flammèche</strong> 
+        (type Feu), ne sont pas de type Psy.
+        </explication>    
+    </question>
+    <question>
+        <id>12</id>
+        <image>img/aucune.png</image>
+        <contenu>Contre quel type le type Psy est-il fort ?</contenu>
+        <response1>Combat</response1>
+        <response2>Feu</response2>
+        <response3>Sol</response3>
+        <response4>Eau</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point>
+        <theme>Psy</theme>  
+        <explication>Le type <strong>Psy</strong> est particulièrement fort contre le type <strong>Combat</strong>. Les Pokémon de type Psy
+        ont un avantage sur les Pokémon de type Combat, car leurs capacités psychiques peuvent surmonter la puissance physique des
+        Pokémon de type Combat. Les autres types, tels que <strong>Feu</strong>, <strong>Sol</strong> et <strong>Eau</strong>, ne sont pas
+        particulièrement vulnérables aux attaques de type Psy.</explication>    
+    </question>
+    <question>
+        <id>13</id>
+        <image>img/q13.png</image>
+        <contenu>Lequel de ces Pokémon est de type Poison ?</contenu>
+        <response1>A - Smogo</response1>
+        <response2>B - Caninos</response2>
+        <response3>C - Carapuce</response3>
+        <response4>D - Roucool</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point>
+        <theme>Poison</theme>   
+        <explication>
+        <strong>Smogo</strong> est un Pokémon de type <strong>Poison</strong>. C'est un Pokémon gazéiforme qui est capable
+        de libérer des toxines et de créer des nuages de fumée toxiques. Les autres Pokémon proposés, comme <strong>Caninos</strong> 
+        (type Feu), <strong>Carapuce</strong> (type Eau) et <strong>Roucool</strong> (type Normal/Vol), ne sont pas de type Poison.
+        </explication>   
+    </question>
+    <question>
+        <id>14</id>
+        <image>img/q14.png</image>
+        <contenu>Quel Pokémon de type Plante est connu pour sa grande fleur sur le dos ?</contenu>
+        <response1>A - Élektek</response1>
+        <response2>B - Dracaufeu</response2>
+        <response3>C - Florizarre</response3>
+        <response4>D - Ronflex</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>1</point>
+        <theme>Plante</theme>   
+        <explication><strong>Florizarre</strong> est un Pokémon de type <strong>Plante</strong> et <strong>Poison</strong>, qui est
+        reconnu pour sa grande fleur située sur son dos. Cette fleur se développe à mesure que Florizarre évolue à partir
+        de <strong>Chlorobule</strong>, l'une des premières formes de ce Pokémon. Les autres Pokémon proposés, comme <strong>Élektek</strong>
+        (type Électrik), <strong>Dracaufeu</strong> (type Feu/Vol) et <strong>Ronflex</strong> (type Normal), n'ont pas de fleur sur le dos.
+        </explication>    
+    </question>
+    <question>
+        <id>15</id>
+        <image>img/q15.png</image>
+        <contenu>Quelle combinaison de types a souvent un Pokémon comme Bulbizarre ?</contenu>
+        <response1>Plante / Feu</response1>
+        <response2>Plante / Poison</response2>
+        <response3>Eau / Sol</response3>
+        <response4>Insecte / Vol</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>2</point>
+        <theme>Poison</theme>   
+        <explication><strong>Bulbizarre</strong> est un Pokémon de type <strong>Plante</strong> et <strong>Poison</strong>. Ce Pokémon
+        est l'un des premiers Pokémon de départ dans la région de Kanto, et sa combinaison de types lui permet d'avoir
+        des attaques variées, telles que <strong>Vampigraine</strong> (Plante) et <strong>Giga-Sangsue</strong> (Poison). Les autres
+        combinaisons proposées, comme <strong>Plante/Feu</strong>, <strong>Eau/Sol</strong> ou <strong>Insecte/Vol</strong>, ne correspondent
+        pas à Bulbizarre.
+        </explication>   
+    </question>
+    <question>
+        <id>16</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle attaque est typique d’un Pokémon de type Plante ?</contenu>
+        <response1>Lance-Soleil</response1>
+        <response2>Tonnerre</response2>
+        <response3>Lame d’Air</response3>
+        <response4>Flammèche</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>3</point>
+        <theme>Plante</theme>     
+        <explication>
+        <strong>Lance-Soleil</strong> est une attaque typique du type <strong>Plante</strong>. Cette attaque inflige des dégâts 
+        importants et est souvent utilisée par des Pokémon de type Plante, comme <strong>Florizarre</strong> ou <strong>Roselia</strong>.
+        Elle est très puissante, mais elle nécessite beaucoup de points de PP. Les autres attaques proposées, telles que <strong>Tonnerre</strong> 
+        (type Électrik), <strong>Lame d'Air</strong> (type Vol) et <strong>Flammèche</strong> (type Feu), ne sont pas de type Plante.
+        </explication>
+    </question>
+    <question>
+        <id>17</id>
+        <image>img/q17.png</image>
+        <contenu>Quelle est l’évolution de Salamèche ?</contenu>
+        <response1>Dracolosse</response1>
+        <response2>Reptincel</response2>
+        <response3>Feunard</response3>
+        <response4>Magmar</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>2</point> 
+        <theme>Feu</theme>   
+        <explication>
+        <strong>Salamèche</strong> évolue en <strong>Reptincel</strong>, puis en <strong>Dracaufeu</strong> lorsqu'il atteint un certain niveau. 
+        Salamèche est un Pokémon de type <strong>Feu</strong>, et au fur et à mesure de son évolution, il devient de plus en plus puissant, 
+        acquérant des capacités de feu plus puissantes. Les autres options proposées, comme <strong>Dracolosse</strong> (qui est l'évolution de 
+        <em>Dratini</em>), <strong>Feunard</strong> (qui est l'évolution de <em>Renard</em>) et <strong>Magmar</strong> (un Pokémon de type Feu), 
+        ne sont pas des évolutions de Salamèche.
+        </explication>  
+    </question>
+    <question>
+        <id>18</id>
+        <image>img/q18.png</image>
+        <contenu>Parmi ces attaques, laquelle peut apprendre Dracaufeu ?</contenu>
+        <response1>Déflagration</response1>
+        <response2>Ébullition</response2>
+        <response3>Tranch’Herbe</response3>
+        <response4>Tonnerre</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point> 
+        <theme>Feu</theme>    
+        <explication>
+        <strong>Dracaufeu</strong> peut apprendre l'attaque <strong>Déflagration</strong>, une puissante attaque de type <strong>Feu</strong> 
+        qui inflige de lourds dégâts. Cette attaque est l'une des plus puissantes pour les Pokémon de type Feu, et Dracaufeu, en tant qu'évolué 
+        de Salamèche, peut la maîtriser. Les autres attaques proposées, comme <strong>Ébullition</strong> (type Eau), <strong>Tranch'Herbe</strong> 
+        (type Plante) et <strong>Tonnerre</strong> (type Électrik), ne sont pas des attaques que Dracaufeu peut apprendre.
+        </explication> 
+    </question>
+    <question>
+        <id>19</id>
+        <image>img/q19.png</image>
+        <contenu>Quelle est l’évolution de Pikachu ?</contenu>
+        <response1>Raichu</response1>
+        <response2>Pichu</response2>
+        <response3>Voltali</response3>
+        <response4>Raichu</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>2</point> 
+        <theme>Electrik</theme>   
+        <explication>
+        <strong>Pikachu</strong> évolue en <strong>Raichu</strong> lorsqu'il est exposé à une Pierre Foudre. Cette évolution est
+        caractéristique de la ligne évolutive de Pikachu, qui est un Pokémon emblématique de type <strong>Électrik</strong>. Le petit Pokémon 
+        électrique devient plus puissant et gagne en vitesse et en attaques de type Électrik après son évolution. Les autres options proposées, 
+        comme <strong>Pichu</strong> (la pré-évolution de Pikachu), <strong>Voltali</strong> (un Pokémon évolué à partir d'<em>Eevee</em>), 
+        ne sont pas les évolutions de Pikachu.
+        </explication>  
+    </question>
+    <question>
+        <id>20</id>
+        <image>img/q20.png</image>
+        <contenu>Solaroc (Sablette solaire) est connu pour ...</contenu>
+        <response1>Sa force physique énorme</response1>
+        <response2>Ses pouvoirs psychiques et sa capacité à contrôler des objets</response2>
+        <response3>Son aptitude à voler</response3>
+        <response4>Sa vitesse incroyable</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>3</point> 
+        <theme>Psy</theme>   
+        <explication>
+        <strong>Solaroc</strong>, également appelé <strong>Sablette solaire</strong>, est un Pokémon de type <strong>Psy</strong>. 
+        Il est connu pour ses pouvoirs psychiques puissants et sa capacité à contrôler des objets ou même des phénomènes naturels avec 
+        son esprit. Contrairement à d'autres Pokémon comme <strong>Sa force physique énorme</strong> ou <strong>Sa vitesse incroyable</strong>, 
+        Solaroc est surtout remarquable pour son côté psychique. Il n'est pas particulièrement reconnu pour ses aptitudes à voler ou pour sa 
+        force physique.
+        </explication>  
+    </question>
+    <question>
+        <id>21</id>
+        <image>img/aucune.png</image>
+        <contenu>Que fait généralement un Pokémon de type Psy lors d’un combat ?</contenu>
+        <response1>Utilise des attaques physiques puissantes</response1>
+        <response2>Sème des graines pour attaquer</response2>
+        <response3>Manipule l’esprit de son adversaire ou lance des attaques psychiques</response3>
+        <response4>Lance des flammes</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>2</point> 
+        <theme>Psy</theme>   
+        <explication>
+        Les Pokémon de type <strong>Psy</strong> se distinguent par leur capacité à manipuler l’esprit de leurs adversaires ou à utiliser 
+        des pouvoirs mentaux puissants. Ils n’attaquent pas principalement avec la force physique ou des éléments naturels, mais plutôt 
+        avec des attaques psychiques comme <em>Psyko</em> ou <em>Choc Mental</em>.
+        </explication>  
+    </question>
+    <question>
+        <id>22</id>
+        <image>img/aucune.png</image>
+        <contenu>Lequel de ces Pokémon est de type Poison pur ?</contenu>
+        <response1>A - Bulbizarre</response1>
+        <response2>B - Smogo</response2>
+        <response3>C - Nostenfer</response3>
+        <response4>D - Tentacool</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>4</point> 
+        <theme>Poison</theme>    
+        <explication>
+        <strong>Smogo</strong> est un Pokémon de type <strong>Poison pur</strong>, contrairement à d’autres comme <strong>Bulbizarre</strong> 
+        (Plante/Poison) ou <strong>Tentacool</strong> (Eau/Poison). Il est connu pour libérer des gaz toxiques et corrosifs, typiques 
+        des Pokémon de ce type.
+        </explication> 
+    </question>
+    <question>
+        <id>23</id>
+        <image>img/q23.png</image>
+        <contenu>Quel Pokémon Psy est connu pour son amour du sommeil et sa cuillère tordue ?</contenu>
+        <response1>A - Mentali</response1>
+        <response2>B - Psykokwak</response2>
+        <response3>C - Soporifik</response3>
+        <response4>D - Kadabra</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>3</point> 
+        <theme>Psy</theme>    
+        <explication>
+        <strong>Kadabra</strong> est célèbre pour sa <strong>cuillère tordue</strong>, symbole de ses pouvoirs psychiques. Il utilise 
+        ses capacités mentales pour manipuler la matière et renforcer ses attaques. Bien que <strong>Soporifik</strong> soit lié au sommeil, 
+        c’est <strong>Kadabra</strong> qui correspond à la description de la cuillère et du type Psy.
+        </explication> 
+    </question>
+    <question>
+        <id>24</id>
+        <image>img/aucune.png</image>
+        <contenu>Quel type est faible face aux attaques de type Poison ?</contenu>
+        <response1>A - Fée</response1>
+        <response2>B - Sol</response2>
+        <response3>C - Acier</response3>
+        <response4>D - Feu</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>3</point> 
+        <theme>Poison</theme>    
+        <explication>
+        Le type <strong>Fée</strong> est vulnérable aux attaques de type <strong>Poison</strong>. Cela signifie qu’un Pokémon de type 
+        Poison infligera des dégâts accrus à un Pokémon de type Fée. En revanche, les types comme <strong>Acier</strong> ou 
+        <strong>Feu</strong> ne subissent pas de faiblesse particulière face à ce type.
+        </explication> 
+    </question>
+    <question>
+        <id>25</id>
+        <image>img/q25.png</image>
+        <contenu>Quel Pokémon de type Psy est la mascotte de la Team Rocket dans l’anime ?</contenu>
+        <response1>A - Abra</response1>
+        <response2>B - Mewtwo</response2>
+        <response3>C - Miaouss</response3>
+        <response4>D - Aucun — Miaouss n’est pas de type Psy</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>4</point> 
+        <theme>Psy</theme>    
+        <explication>
+        <strong>Miaouss</strong> est bien la mascotte de la <strong>Team Rocket</strong>, mais il est de type <strong>Normal</strong>, 
+        et non de type <strong>Psy</strong>. Il est célèbre pour sa capacité rare à parler le langage humain, mais cela ne lui confère 
+        aucun pouvoir psychique. Ainsi, la bonne réponse est qu’il n’y a pas de Pokémon de type Psy comme mascotte de la Team Rocket.
+        </explication> 
+    </question>
+    <question>
+        <id>26</id>
+        <image>img/q26.png</image>
+        <contenu>Quelle est l’évolution finale de Tarsal, lorsqu’il évolue en gardant son type Psy ?</contenu>
+        <response1>Kirlia</response1>
+        <response2>Gallame</response2>
+        <response3>Gardevoir</response3>
+        <response4>Méga-Gallame</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>2</point> 
+        <theme>Psy</theme>
+        <explication>
+        <strong>Gardevoir</strong> est l’évolution finale de <strong>Tarsal</strong> lorsqu’il garde son type <strong>Psy</strong>. 
+        Pour obtenir <strong>Gallame</strong>, il faut un Tarsal mâle et utiliser une <strong>Pierre Aube</strong>. 
+        Gardevoir, quant à lui, reste de type <strong>Psy/Fée</strong> dans ses formes récentes, représentant l’évolution naturelle 
+        de Tarsal sans conditions particulières.
+        </explication>    
+    </question>
+    <question>
+        <id>27</id>
+        <image>img/q27.png</image>
+        <contenu>Quel Pokémon légendaire de type Psy est considéré comme le clone 
+        génétiquement modifié d’un autre Pokémon ?</contenu>
+        <response1>A - Mew</response1>
+        <response2>B - Mewtwo</response2>
+        <response3>C - Deoxys</response3>
+        <response4>D - Cresselia</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>4</point> 
+        <theme>Psy</theme> 
+        <explication>
+        <strong>Mewtwo</strong> est un Pokémon légendaire de type <strong>Psy</strong> créé par manipulation génétique 
+        à partir de l’ADN de <strong>Mew</strong>. 
+        Il est considéré comme son clone, mais beaucoup plus puissant et agressif, symbolisant l’échec de la science 
+        à reproduire la pureté de Mew.
+        </explication>   
+    </question>
+    <question>
+        <id>28</id>
+        <image>img/q28.png</image>
+        <contenu>Quel Pokémon de type Plante est l’évolution finale de Germignon ?</contenu>
+        <response1>A - Macronium</response1>
+        <response2>B - Roserade</response2>
+        <response3>C - Florizarre</response3>
+        <response4>D - Méganium</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>2</point> 
+        <theme>Plante</theme>  
+        <explication>
+        <strong>Méganium</strong> est l’évolution finale du Pokémon de départ <strong>Germignon</strong>. 
+        Après avoir évolué en <strong>Macronium</strong>, il devient Méganium, un Pokémon de type <strong>Plante pur</strong> 
+        connu pour ses capacités à apaiser et revitaliser la nature.
+        </explication>  
+    </question>
+    <question>
+        <id>29</id>
+        <image>img/q29.png</image>
+        <contenu>Quel Pokémon de type Plante et Spectre est inspiré d’une citrouille ?</contenu>
+        <response1>Pitrouille</response1>
+        <response2>Givrali</response2>
+        <response3>Cacnea</response3>
+        <response4>Gourgeist</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>1</point> 
+        <theme>Plante</theme> 
+        <explication>
+        <strong>Gourgeist</strong> est un Pokémon de type <strong>Plante/Spectre</strong> inspiré des citrouilles 
+        et des traditions d’Halloween. 
+        Il est l’évolution de <strong>Pitrouille</strong> et possède différentes tailles influençant ses statistiques et sa puissance.
+        </explication>   
+    </question>
+    <question>
+        <id>30</id>
+        <image>img/q30.png</image>
+        <contenu>Lequel de ces Pokémon de type Plante est aussi de type Feu ?</contenu>
+        <response1>A - Viridium</response1>
+        <response2>B - Pyrobut</response2>
+        <response3>C - Gorythmic</response3>
+        <response4>Aucun</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>4</point> 
+        <theme>Plante</theme>
+        <explication>
+        Aucun des Pokémon proposés n’est à la fois de type <strong>Plante</strong> et <strong>Feu</strong>. 
+        <strong>Viridium</strong> est de type Plante/Combat, <strong>Pyrobut</strong> est de type Feu pur, 
+        et <strong>Gorythmic</strong> est de type Plante pur. 
+        Il n’existe actuellement aucun Pokémon combinant ces deux types dans cette liste.
+        </explication>    
+    </question>
+    <question>
+        <id>31</id>
+        <image>img/q31.png</image>
+        <contenu>Lequel de ces Pokémon est de type Plante et Feu ?</contenu>
+        <response1>A - Simisage</response1>
+        <response2>B - Pyrax d’Hisuï</response2>
+        <response3>C - Gorythmic</response3>
+        <response4>D - Arboliva</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>3</point> 
+        <theme>Feu</theme>  
+        <explication>
+        <strong>Pyrax d’Hisuï</strong> est un Pokémon de type <strong>Plante/Feu</strong>, une forme régionale unique de Pyrax 
+        apparue dans la région d’Hisuï. 
+        Il associe la chaleur du feu à la vitalité de la nature, une combinaison de types très rare dans le monde Pokémon.
+        </explication>  
+    </question>
+    <question>
+        <id>32</id>
+        <image>img/q32.png</image>
+        <contenu>Quel Pokémon Plante est connu pour dormir au soleil et 
+        ressembler à un tournesol ?</contenu>
+        <response1>A - Tournegrin</response1>
+        <response2>B - Héliatronc</response2>
+        <response3>C - Floravol</response3>
+        <response4>D - Dardargnan</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>3</point> 
+        <theme>Plante</theme>   
+        <explication>
+        <strong>Héliatronc</strong> est un Pokémon de type <strong>Plante</strong> inspiré du tournesol. 
+        Il adore la lumière du soleil et est souvent vu en train de dormir ou se reposer en plein soleil. 
+        Son pré-évolution, <strong>Tournegrin</strong>, évolue en Héliatronc lorsqu’il est exposé à une <strong>Pierre Soleil</strong>.
+        </explication> 
+    </question>
+    <question>
+        <id>33</id>
+        <image>img/q33.png</image>
+        <contenu>Lequel de ces Pokémon de type Plante est aussi de type Poison ?</contenu>
+        <response1>A - Rafflesia</response1>
+        <response2>B - Phyllali</response2>
+        <response3>C - Fragilady</response3>
+        <response4>D - Chapignon</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>2</point> 
+        <theme>Poison</theme>  
+        <explication>
+        <strong>Rafflesia</strong> est un Pokémon de type <strong>Plante/Poison</strong>. 
+        Il évolue de Mystherbe via Ortide, grâce à une <strong>Pierre Plante</strong>. 
+        Il est inspiré de la fleur Rafflesia, connue pour son odeur nauséabonde, ce qui correspond bien à son type Poison.
+        </explication>  
+    </question>
+    <question>
+        <id>34</id>
+        <image>img/aucune.png</image>
+        <contenu>Le type Plante est super efficace contre lequel de ces types ?</contenu>
+        <response1>Feu</response1>
+        <response2>Eau</response2>
+        <response3>Acier</response3>
+        <response4>Dragon</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>1</point> 
+        <theme>Plante</theme>   
+        <explication>
+        Le type <strong>Plante</strong> est super efficace contre le type <strong>Eau</strong>, 
+        car les plantes absorbent l’eau et s’en nourrissent. 
+        À l’inverse, le type Plante est faible contre le Feu, le Vol, le Poison, la Glace et l’Insecte.
+        </explication> 
+    </question>
+    <question>
+        <id>35</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle est la principale faiblesse du type Plante ?</contenu>
+        <response1>Eau</response1>
+        <response2>Insecte</response2>
+        <response3>Sol</response3>
+        <response4>Ténèbres</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>1</point> 
+        <theme>Plante</theme>   
+        <explication>
+        Le type <strong>Plante</strong> est particulièrement faible face au type <strong>Insecte</strong>, 
+        ainsi qu’au Feu, Vol, Poison et Glace. 
+        Les attaques Insecte infligent donc des dégâts accrus aux Pokémon Plante, en raison de la relation naturelle entre les plantes et les insectes.
+        </explication> 
+    </question>
+    <question>
+        <id>36</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle est la principale faiblesse du type Plante ?</contenu>
+        <response1>Eau</response1>
+        <response2>Insecte</response2>
+        <response3>Sol</response3>
+        <response4>Ténèbres</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>1</point> 
+        <theme>Plante</theme>  
+        <explication>
+        Le type <strong>Plante</strong> est vulnérable au type <strong>Insecte</strong>, 
+        car les Pokémon de ce type subissent des dégâts importants face à des attaques inspirées de prédateurs naturels. 
+        C’est l’une des cinq faiblesses majeures du type Plante, avec Feu, Vol, Poison et Glace.
+        </explication>  
+    </question>
+    <question>
+        <id>37</id>
+        <image>img/aucune.png</image>
+        <contenu>Combien de types différents sont super efficaces contre le type Plante ?</contenu>
+        <response1>2</response1>
+        <response2>3</response2>
+        <response3>4</response3>
+        <response4>5</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>4</point> 
+        <theme>Plante</theme>  
+        <explication>
+        Le type <strong>Plante</strong> a cinq faiblesses : <strong>Feu</strong>, <strong>Vol</strong>, <strong>Poison</strong>, 
+        <strong>Glace</strong> et <strong>Insecte</strong>. 
+        Ces types sont tous super efficaces contre lui, ce qui rend les Pokémon Plante plus vulnérables en combat.
+        </explication>  
+    </question>
+    <question>
+        <id>38</id>
+        <image>img/q38.png</image>
+        <contenu>Quel Pokémon Eau est le starter de la région de Kanto ?</contenu>
+        <response1>A - Carapuce</response1>
+        <response2>B - Gobou</response2>
+        <response3>C - Grenousse</response3>
+        <response4>D - Piplup</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>3</point> 
+        <theme>Eau</theme> 
+        <explication>
+        <strong>Carapuce</strong> est le Pokémon de départ de type <strong>Eau</strong> de la région de <strong>Kanto</strong>. 
+        Il évolue en <strong>Carabaffe</strong> puis en <strong>Tortank</strong>. 
+        C’est l’un des trois starters originaux aux côtés de Bulbizarre et Salamèche.
+        </explication>   
+    </question>
+    <question>
+        <id>39</id>
+        <image>img/q39.png</image>
+        <contenu>Quelle est l’évolution finale de Gobou ?</contenu>
+        <response1>A - Laggron</response1>
+        <response2>B - Maraiste</response2>
+        <response3>C - Tiplouf</response3>
+        <response4>D - Mustéflott</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>2</point> 
+        <theme>Eau</theme> 
+        <explication>
+        <strong>Laggron</strong> est l’évolution finale de <strong>Gobou</strong>. 
+        Gobou évolue d’abord en <strong>Flobio</strong>, puis en Laggron, un Pokémon de type <strong>Eau/Sol</strong>. 
+        Sa Méga-Évolution le rend encore plus puissant et améliore ses capacités physiques.
+        </explication>   
+    </question>
+    <question>
+        <id>40</id>
+        <image>img/q40.png</image>
+        <contenu>Lequel de ces Pokémon Eau est aussi de type Glace ?</contenu>
+        <response1>A - Wailord</response1>
+        <response2>B - Lokhlass</response2>
+        <response3>C - Poissoroy</response3>
+        <response4>D - Léviator</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>2</point> 
+        <theme>Eau</theme>  
+        <explication>
+        <strong>Lokhlass</strong> est un Pokémon de type <strong>Eau/Glace</strong>. 
+        Connu pour sa gentillesse et sa capacité à transporter des humains sur son dos, 
+        il maîtrise à la fois des attaques aquatiques et glaciales comme <em>Surf</em> ou <em>Laser Glace</em>.
+        </explication>  
+    </question>
+    <question>
+        <id>41</id>
+        <image>img/q41.png</image>
+        <contenu>Quel Pokémon légendaire Eau a le pouvoir de contrôler les océans ?</contenu>
+        <response1>A - Suicune</response1>
+        <response2>B - Lugia</response2>
+        <response3>C - Kyogre</response3>
+        <response4>D - Manaphy</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>2</point> 
+        <theme>Eau</theme> 
+        <explication>
+        <strong>Kyogre</strong> est un Pokémon légendaire de type <strong>Eau</strong> capable de contrôler les océans. 
+        Il est connu pour provoquer des pluies diluviennes et des montées des eaux lorsqu’il s’éveille. 
+        Dans la mythologie Pokémon, il est l’opposé de <strong>Groudon</strong>, qui contrôle la terre.
+        </explication>   
+    </question>
+    <question>
+        <id>42</id>
+        <image>img/q42.png</image>
+        <contenu>Quel Pokémon Eau est inspiré d’un pingouin ?</contenu>
+        <response1>Psykokwak</response1>
+        <response2>Piplup</response2>
+        <response3>Tiplouf</response3>
+        <response4>Pijako</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>4</point> 
+        <theme>Eau</theme> 
+        <explication>
+        <strong>Tiplouf</strong> est un Pokémon de type <strong>Eau</strong> inspiré d’un pingouin. 
+        C’est le Pokémon de départ de la région de <strong>Sinnoh</strong>. 
+        Il évolue en <strong>Prinplouf</strong> puis en <strong>Pingoléon</strong>, de type Eau/Acier.
+        </explication>   
+    </question>
+    <question>
+        <id>43</id>
+        <image>img/q43.png</image>
+        <contenu>Quel Pokémon Eau est souvent vu avec un coquillage sur le ventre ?</contenu>
+        <response1>A - Otaria</response1>
+        <response2>B - Mustéflott</response2>
+        <response3>C - Moustillon</response3>
+        <response4>D - Coquiperl</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>1</point> 
+        <theme>Eau</theme> 
+        <explication>
+        <strong>Moustillon</strong> est un Pokémon de type <strong>Eau</strong> qui garde un coquillage, appelé <em>scalpel</em>, sur son ventre. 
+        Il s’en sert comme arme pour combattre. 
+        C’est le Pokémon de départ de la région d’<strong>Unys</strong>, évoluant en <strong>Mateloutre</strong> puis <strong>Clamiral</strong>.
+        </explication>   
+    </question>
+    <question>
+        <id>44</id>
+        <image>img/q44.png</image>
+        <contenu>Lequel de ces Pokémon Eau est aussi de type Sol ?</contenu>
+        <response1>A - Maraiste</response1>
+        <response2>B - Wailmer</response2>
+        <response3>C - Tentacruel</response3>
+        <response4>D - Krabby</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>3</point> 
+        <theme>Eau</theme>   
+        <explication>
+        <strong>Maraiste</strong> est un Pokémon de type <strong>Eau/Sol</strong>. 
+        Grâce à ce double type, il est immunisé contre les attaques Électrik, qui sont normalement très dangereuses pour les Pokémon Eau. 
+        Il est l’évolution de <strong>Axoloto</strong>.
+        </explication> 
+    </question>
+    <question>
+        <id>45</id>
+        <image>img/q45.png</image>
+        <contenu>Quel Pokémon Eau de la 9e génération ressemble à un canard 
+        bleu avec une coupe gominée ?</contenu>
+        <response1>Coiffeton</response1>
+        <response2>Palmaval</response2>
+        <response3>Canarticho</response3>
+        <response4>Arrozard</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>4</point> 
+        <theme>Eau</theme>
+        <explication>
+        <strong>Coiffeton</strong> est le Pokémon de départ de type <strong>Eau</strong> dans la région de <strong>Paldea</strong>. 
+        Il ressemble à un petit canard bleu avec une coupe soignée. 
+        Il évolue ensuite en <strong>Canarbello</strong> puis en <strong>Palmaval</strong>, qui adopte un style de danseur élégant.
+        </explication>    
+    </question>
+    <question>
+        <id>46</id>
+        <image>img/q46.png</image>
+        <contenu>Quel Pokémon Électrik est la mascotte de la franchise Pokémon ?</contenu>
+        <response1>A - Élektek</response1>
+        <response2>B - Pikachu</response2>
+        <response3>C - Voltali</response3>
+        <response4>D - Raichu</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>1</point> 
+        <theme>Electrik</theme> 
+        <explication>
+        <strong>Pikachu</strong> est la mascotte officielle de la franchise <strong>Pokémon</strong>. 
+        Ce Pokémon de type <strong>Électrik</strong> est célèbre pour ses décharges électriques et son cri emblématique. 
+        Il est le compagnon fidèle de <strong>Sacha</strong> dans l’anime.
+        </explication>   
+    </question>
+    <question>
+        <id>47</id>
+        <image>img/q47.png</image>
+        <contenu>Quel Pokémon Électrik est inspiré d’un chien ?</contenu>
+        <response1>A - Dynavolt</response1>
+        <response2>B - Luxray</response2>
+        <response3>C - Voltoutou</response3>
+        <response4>D - Motisma</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>4</point> 
+        <theme>Electrik</theme>
+        <explication>
+        <strong>Voltoutou</strong> est un Pokémon de type <strong>Électrik</strong> inspiré d’un chiot énergique. 
+        Il est connu pour sa nature joueuse et sa capacité à produire de l’électricité lorsqu’il court. 
+        Il stocke l’électricité dans ses joues et la libère en courant. Il évolue en <strong>Fulgudog</strong>, 
+        un Pokémon plus rapide et puissant.
+        </explication>    
+    </question>
+    <question>
+        <id>48</id>
+        <image>img/q48.png</image>
+        <contenu>Quel Pokémon Électrik est inspiré d’un scarabée ?</contenu>
+        <response1>A - Lanturn</response1>
+        <response2>B - Chrysapile</response2>
+        <response3>C - Élekid</response3>
+        <response4>D - Raichu</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>4</point>
+        <theme>Electrik</theme>
+        <explication>
+        <strong>Chrysapile</strong> est un Pokémon de type <strong>Insecte/Électrik</strong> inspiré d’un scarabée. 
+        Il se nourrit d’énergie électrique et évolue en <strong>Lucanon</strong> lorsqu’il gagne en puissance. 
+        </explication>
+    </question>
+    <question>
+        <id>49</id>
+        <image>img/q49.png</image>
+        <contenu>Quel est le Pokémon de type Eau qui a évolué à partir de Poussifeu ?</contenu>
+        <response1>A - Gyarados</response1>
+        <response2>B - Swampert</response2>
+        <response3>C - Milotic</response3>
+        <response4>D - Blastoise</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>2</point> 
+        <theme>Eau</theme> 
+        <explication>
+        La bonne réponse est <strong>Laggron</strong> (Swampert en anglais), mais attention : il n’évolue pas à partir de <strong>Poussifeu</strong>. 
+        Poussifeu est de type Feu et évolue en Galifeu puis Braségali. 
+        Il semble y avoir confusion ici, car <strong>Gobou</strong> est celui qui évolue en Laggron, le véritable Pokémon Eau/Sol.
+        </explication>   
+    </question>
+    <question>
+        <id>50</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle attaque de type Eau inflige des dégâts en fonction de 
+        la vitesse du Pokémon adverse ?</contenu>
+        <response1>A - Hydrocanon</response1>
+        <response2>B - Surf</response2>
+        <response3>C - Cascade</response3>
+        <response4>D - Écume</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>4</point> 
+        <theme>Eau</theme> 
+        <explication>
+        L’attaque <strong>Cascade</strong> est une puissante attaque physique de type <strong>Eau</strong> 
+        qui peut parfois apeurer la cible. 
+        Cependant, il semble y avoir confusion : l’attaque qui dépend de la vitesse adverse est plutôt <strong>Gyroballe</strong> 
+        (type Acier). 
+        Cascade reste néanmoins une des meilleures attaques Eau en combat.
+        </explication>   
+    </question>
+    <question>
+        <id>51</id>
+        <image>img/q51.png</image>
+        <contenu>Quel Pokémon de type Feu a la capacité spéciale "Sécheresse",
+         qui augmente la puissance des attaques de type Feu ?</contenu>
+        <response1>A - Salamèche</response1>
+        <response2>B - Dracaufeu</response2>
+        <response3>C - Arcanin</response3>
+        <response4>D - Groudon</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>2</point> 
+        <theme>Feu</theme>
+        <explication>
+        <strong>Groudon</strong>, lorsqu’il est sous sa forme <strong>Groudon Primal</strong>, possède la capacité spéciale <strong>Sécheresse</strong> (ou <em>Terre Finale</em> dans cette forme). 
+        Cette capacité fait apparaître un soleil intense qui renforce les attaques de type <strong>Feu</strong> et affaiblit celles de type <strong>Eau</strong>.
+        </explication>    
+    </question>
+    <question>
+        <id>52</id>
+        <image>img/q52.png</image>
+        <contenu>Quel Pokémon de type Feu est également de type Spectre ?</contenu>
+        <response1>A - Chandelure</response1>
+        <response2>B - Flambusard</response2>
+        <response3>C - Pyrax</response3>
+        <response4>D - Carchacrok</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point> 
+        <theme>Feu</theme>   
+        <explication>
+        <strong>Chandelure</strong> est un Pokémon de type <strong>Feu/Spectre</strong>. 
+        Il est l’évolution finale de <strong>Funécire</strong> et <strong>Mélancolux</strong>. 
+        Sa flamme brûle l’âme de ses victimes, en faisant l’un des Pokémon les plus mystérieux et puissants de son type.
+        </explication> 
+    </question>
+    <question>
+        <id>53</id>
+        <image>img/q53.png</image>
+        <contenu>Quel est le Pokémon légendaire de type Feu, qui est également un oiseau ?</contenu>
+        <response1>A - Moltres</response1>
+        <response2>B - Flambusard</response2>
+        <response3>C - Reshiram</response3>
+        <response4>D - Entei</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point> 
+        <theme>Feu</theme> 
+        <explication>
+        <strong>Moltres</strong> (ou <strong>Sulfura</strong> en français) est l’un des trois oiseaux légendaires de la région de <strong>Kanto</strong>. 
+        De type <strong>Feu/Vol</strong>, il symbolise la flamme et peut régénérer ses forces en plongeant dans la lave.
+        </explication>   
+    </question>
+    <question>
+        <id>54</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle est la principale faiblesse des Pokémon de type Feu ?</contenu>
+        <response1>A - Eau</response1>
+        <response2>B - Sol</response2>
+        <response3>C - Dragon</response3>
+        <response4>D - Acier</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>2</point> 
+        <theme>Feu</theme>
+        <explication>
+        Le type <strong>Feu</strong> est principalement faible face au type <strong>Eau</strong>, 
+        car l’eau éteint naturellement le feu. 
+        Les attaques de type Eau infligent donc des dégâts doublés aux Pokémon Feu.
+        </explication>    
+    </question>
+    <question>
+        <id>55</id>
+        <image>img/q55.png</image>
+        <contenu>Parmi les Pokémon suivants, lequel est de type Feu et Insecte ?</contenu>
+        <response1>A - Pyrax</response1>
+        <response2>B - Volcaropod</response2>
+        <response3>C - Scarhino</response3>
+        <response4>D - Cizayox</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>3</point> 
+        <theme>Feu</theme>  
+        <explication>
+        <strong>Pyrax</strong> est un Pokémon de type <strong>Feu/Insecte</strong> apparu dans la région d’<strong>Unys</strong>. 
+        Inspiré d’un papillon de feu, il est redouté pour son attaque <strong>Danse du Feu</strong> et ses capacités spéciales en combat.
+        </explication>  
+    </question>
+    <question>
+        <id>56</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle est l'attaque emblématique des Pokémon de type Psy 
+        qui permet de téléporter l'adversaire ?</contenu>
+        <response1>A - Psyko</response1>
+        <response2>B - Téléport</response2>
+        <response3>C - Choc Mental</response3>
+        <response4>D - Psykochoque</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point> 
+        <theme>Psy</theme>
+        <explication>
+        <strong>Psyko</strong> est l’une des attaques les plus puissantes de type <strong>Psy</strong>. 
+        Elle inflige de lourds dégâts spéciaux et peut parfois réduire la Défense Spéciale de l’adversaire. 
+        C’est l’attaque signature d’Alakazam et Mewtwo.
+        </explication>    
+    </question>
+    <question>
+        <id>57</id>
+        <image>img/q57.png</image>
+        <contenu>Quel Pokémon de type Psy et Acier est très puissant contre 
+        les Pokémon de type Dragon ?</contenu>
+        <response1>A - Alakazam</response1>
+        <response2>B - Méditikka</response2>
+        <response3>C - Métalosse</response3>
+        <response4>D - Giratina</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>3</point> 
+        <theme>Psy</theme>
+        <explication>
+        <strong>Métalosse</strong> est un Pokémon de type <strong>Psy/Acier</strong>, l’évolution de Métang. 
+        Grâce à son type Acier, il résiste aux attaques Dragon et peut riposter avec une grande puissance physique.
+        </explication>    
+    </question>
+    <question>
+        <id>58</id>
+        <image>img/q58.png</image>
+        <contenu>Quel est le Pokémon de type Poison et Vol qui a la 
+        capacité "Ailes Toxiques" ?</contenu>
+        <response1>A - Tentacruel</response1>
+        <response2>B - Nosferalto</response2>
+        <response3>C - Salarsen</response3>
+        <response4>D - Farfuret</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>1</point> 
+        <theme>Poison</theme> 
+        <explication>
+        <strong>Nosferalto</strong> est un Pokémon de type <strong>Poison/Vol</strong>. 
+        Bien qu’il n’ait pas réellement une capacité appelée “Ailes Toxiques” dans les jeux, 
+        il représente bien le concept de Pokémon volant et empoisonné, grâce à ses crocs empoisonnés.
+        </explication>   
+    </question>
+    <question>
+        <id>59</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle est l'attaque de type Poison qui peut rendre 
+        l'adversaire empoisonné tout en infligeant des dégâts ?</contenu>
+        <response1>Poison Délire</response1>
+        <response2>Piqûre</response2>
+        <response3>Lance-Spic</response3>
+        <response4>Bomb-Beurk</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>4</point> 
+        <theme>Poison</theme> 
+        <explication>
+        L’attaque <strong>Bomb-Beurk</strong> (et non Piqûre) est une attaque de type <strong>Poison</strong> 
+        qui inflige des dégâts et peut empoisonner l’adversaire. 
+        Elle est souvent utilisée par des Pokémon comme <strong>Grotadmorv</strong> ou <strong>Roserade</strong>.
+        </explication>   
+    </question>
+    <question>
+        <id>60</id>
+        <image>img/q60.png</image>
+        <contenu>Quel Pokémon de type Poison est aussi de type Dragon ?</contenu>
+        <response1>A - Dragapult</response1>
+        <response2>B - Toxtricity</response2>
+        <response3>C - Ekans</response3>
+        <response4>D - Roserade</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point> 
+        <theme>Poison</theme> 
+        <explication>
+        <strong>Dragapult</strong> est un Pokémon de type <strong>Dragon/Spectre</strong> et non Poison. 
+        Aucun Pokémon canonique n’est actuellement Poison/Dragon, mais si on parle d’un concept théorique, 
+        Dragapult reste souvent associé à l’énergie toxique de son environnement.
+        </explication>   
+    </question>
+    <question>
+        <id>61</id>
+        <image>img/q61.png</image>
+        <contenu>Parmi ces Pokémon, lequel est de type Poison et Fée ?</contenu>
+        <response1>A - Toxtricity</response1>
+        <response2>B - Florges</response2>
+        <response3>C - Roserade</response3>
+        <response4>D - Galarian Weezing</response4>
+        <bonne_reponse>4</bonne_reponse>
+        <point>3</point> 
+        <theme>Poison</theme>  
+        <explication>
+        <strong>Smogogo de Galar</strong> (ou <strong>Galarian Weezing</strong>) est un Pokémon de type <strong>Poison/Fée</strong>. 
+        Sa fumée purifie l’air pollué et il possède un look inspiré des gentlemen victoriens.
+        </explication>  
+    </question>
+    <question>
+        <id>62</id>
+        <image>img/q62.png</image>
+        <contenu>Quelle est la capacité de type Poison unique de Venusaur ?</contenu>
+        <response1>Poudre Toxik</response1>
+        <response2>Gaz Toxik</response2>
+        <response3>Bomb-Beurk</response3>
+        <response4>Vibraquai</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>3</point> 
+        <theme>Poison</theme> 
+        <explication>
+        <strong>Florizarre</strong> (Venusaur) utilise souvent des attaques comme <strong>Poudre Toxik</strong> ou <strong>Bomb-Beurk</strong>, 
+        mais il ne possède pas de capacité “Gaz Toxik”. 
+        Cette question fait sans doute référence à son affinité avec les attaques Poison, renforcées par son type.
+        </explication>   
+    </question>
+    <question>
+        <id>63</id>
+        <image>img/aucune.png</image>
+        <contenu>Quelle attaque de type Électrik permet de paralyser l'adversaire 
+        en plus d'infliger des dégâts ?</contenu>
+        <response1>A - Décharge</response1>
+        <response2>B - Tonnerre</response2>
+        <response3>C - Éclair</response3>
+        <response4>D - Charge</response4>
+        <bonne_reponse>2</bonne_reponse>
+        <point>3</point> 
+        <theme>Electrik</theme> 
+        <explication>
+        <strong>Tonnerre</strong> est une attaque de type <strong>Électrik</strong> 
+        qui inflige de lourds dégâts spéciaux et a une chance de paralyser la cible. 
+        C’est une attaque emblématique de <strong>Pikachu</strong> et <strong>Raichu</strong>.
+        </explication>   
+    </question>
+    <question>
+        <id>64</id>
+        <image>img/q64.png</image>
+        <contenu>Quel Pokémon de type Électrik est célèbre pour son rôle dans les 
+        jeux "Pokémon Épée et Bouclier" ?</contenu>
+        <response1>A - Electivire</response1>
+        <response2>B - Rotom</response2>
+        <response3>C - Pincurchin</response3>
+        <response4>D - Togekiss</response4>
+        <bonne_reponse>3</bonne_reponse>
+        <point>4</point> 
+        <theme>Electrik</theme>
+        <explication>
+        <strong>Pincurchin</strong> est un Pokémon de type <strong>Électrik</strong> originaire de la région de <strong>Galar</strong>. 
+        Il produit de l’électricité à partir de ses piquants et est connu pour sa ressemblance avec un oursin marin.
+        </explication>   
+    </question>
+    <question>
+        <id>65</id>
+        <image>img/q65.png</image>
+        <contenu>Quel est le Pokémon légendaire de type Électrik et Acier qui peut
+         créer des orages ?</contenu>
+        <response1>A - Zekrom</response1>
+        <response2>B - Raikou</response2>
+        <response3>C - Thundurus</response3>
+        <response4>D - Magnezone</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>2</point> 
+        <theme>Electrik</theme> 
+        <explication>
+        <strong>Zekrom</strong> est un Pokémon légendaire de type <strong>Dragon/Électrik</strong> (et non Acier). 
+        Il est capable de créer des orages et de manipuler l’électricité à grande échelle. 
+        Il symbolise l’idéal de vérité dans <strong>Pokémon Noir et Blanc</strong>.
+        </explication>   
+    </question>
+    <question>
+        <id>66</id>
+        <image>img/q66.png</image>
+        <contenu>Quel est le Pokémon de type Électrik qui peut apprendre l'attaque Foudre
+         dès le début de sa carrière ?</contenu>
+        <response1>A - Pikachu</response1>
+        <response2>B - Voltorbe</response2>
+        <response3>C - Magnéton</response3>
+        <response4>D - Elekid</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point> 
+        <theme>Electrik</theme> 
+        <explication>
+        <strong>Pikachu</strong> peut apprendre <strong>Foudre</strong> très tôt dans les jeux Pokémon, 
+        souvent par le biais de CT ou d’événements spéciaux. 
+        C’est l’une de ses attaques les plus célèbres.
+        </explication>   
+    </question>
+    <question>
+        <id>67</id>
+        <image>img/q67.png</image>
+        <contenu>Quel Pokémon de type Feu est le prédécesseur de Flambusard ?</contenu>
+        <response1>A - Salamèche</response1>
+        <response2>B - Braségali</response2>
+        <response3>C - Reptincel</response3>
+        <response4>D - Pyrax</response4>
+        <bonne_reponse>1</bonne_reponse>
+        <point>1</point> 
+        <theme>Feu</theme> 
+        <explication>
+        En réalité, <strong>Flambusard</strong> évolue à partir de <strong>Braisillon</strong>, lui-même évolution de <strong>Passerouge</strong>. 
+        <strong>Salamèche</strong> n’est pas lié à cette lignée, bien qu’il soit aussi de type Feu. 
+        Cette confusion vient probablement de leur ressemblance en couleur et en type.
+        </explication>  
+    </question>
+</data>

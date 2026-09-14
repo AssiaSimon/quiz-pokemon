@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokémon - Apprendre</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Lien vers CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Lien vers CSS de Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Lien vers Google Fonts por Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+</head>
+<body onload="loadXMLDoc()">
+    <div id="app_info" style="width:'400px'">
+        <div id="app_menu">
+            <img src="img/Pokemon_logo_grand.png" height="80px" width="200px">
+            <hr>
+            <a href="index.html"><ul><img src="img/accueil.png" height="40px" width="40px">  Acceuil</ul></a>
+            <a href="jeu.html"><ul><img src="img/gamepad.png" height="40px" width="40px">  Jeu</ul></a>
+            <a href="apprendre.html"><ul class="selected"><img src="img/learn.png" height="40px" width="40px">  Apprendre</ul></a>
+            <a href="statistiques.html"><ul><img src="img/bargraph.png" height="40px" width="40px">  Statistiques</ul></a>
+            <hr>
+            <br>
+            <a href="a_propos.html"><ol id="propos">À propos</ol></a>
+            <br>
+            <ol>Version 1.0</ol>
+            <ol>Projet universitaire UBO</ol>
+            <br>
+            <ol style="font-size: 11px;">&copy; 2025 – Tous droits réservés</ol>
+        </div>
+    </div>
+    <div id="content" style="max-width: fit-content;">
+        <br>
+        <p>
+            <img src="img/Pokebola.png" height="15px" width="15px">
+            <img src="img/direction-icon.png" height="14px" width="14px">
+            Apprendre
+        </p>
+        <hr>
+        <h5>
+            <img src="img/arrow-bar-right.svg" alt="arrow" height="40px" width="40px">
+            LISTE DES QUESTIONS POKÉMON
+        </h5>
+        <hr>
+        <br>
+        <div id="pageLinks" style="display: none;"></div>
+        <br>
+        <div class="row">
+            <div class="col-md-5">
+                <section class="filtreZone">
+                    <select id="thematique" class="form-select" style="width: 150px;">
+                        <option value="Tout">Tout</option>
+                        <option value="Eau">Eau</option>
+                        <option value="Electrik">Électrik</option>
+                        <option value="Feu">Feu</option>
+                        <option value="Poison">Poison</option>
+                        <option value="Plante">Plante</option>
+                        <option value="Psy">Psy</option>
+                    </select> 
+                    <img src="img/funnel.svg" alt="filtre_outils" onclick="filtrerData()"  style="height:38px; width:38px; border: 1px solid #e1e4e5; 
+                    padding: 10px; border-radius:5px;">
+                    <img src="img/sort.svg" alt="search_tool" onclick="sortData()" style="height:'30'; width:'30'; border: 1px solid #e1e4e5; padding: 10px; 
+                    border-radius:5px; ">
+                </section>
+            </div>
+            <div class="col-md-6">
+                <section class="rechercheZone">
+                    <img src="img/search.svg" alt="search_tool" onclick="rechercheData()" style="height:'30'; width:'30'; border: 1px solid #e1e4e5; padding: 10px; 
+                    border-radius:5px; ">
+                    <input type="text" value="Recherche" id="txtRecherche" onclick="viderTxtRecherche()" style="padding: 5px;"/>
+                </section>
+            </div>
+        </div>
+        <br>
+        <table id="data" class="table table-striped"></table>
+        <br>
+    </div>
+    <!-- Lien vers JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html> 

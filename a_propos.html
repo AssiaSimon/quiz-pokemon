@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokémon - Acceuil</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Lien vers CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Lien vers Google Fonts por Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body>
+    <div id="app_info" width="400px">
+        <div class="" id="app_menu">
+            <img src="img/Pokemon_logo_grand.png" height="80px" width="200px">
+            <hr>
+            <a href="index.html"><ul><img src="img/accueil.png" height="40px" width="40px">  Accueil</ul></a>
+            <a href="jeu.html"><ul><img src="img/gamepad.png" height="40px" width="40px">  Jeu</ul></a>
+            <a href="apprendre.html"><ul><img src="img/learn.png" height="40px" width="40px">  Apprendre</ul></a>
+            <a href="statistiques.html"><ul><img src="img/bargraph.png" height="40px" width="40px">  Statistiques</ul></a>
+            <hr>
+            <br>
+            <a href="a_propos.html"><ol id="propos">À propos</ol></a>
+            <br>
+            <ol>Version 1.0</ol>
+            <ol>Projet universitaire UBO</ol>
+            <br>
+            <ol style="font-size: 11px;">&copy; 2025 – Tous droits réservés</ol>
+        </div>
+    </div>
+    <div id="content">
+        <br>
+        <p>
+            <img src="img/Pokebola.png" height="15px" width="15px">
+            <img src="img/direction-icon.png" height="14px" width="14px">
+            À propos
+        </p>
+        <hr>
+        <br>
+        <!--  <section> regroupe des éléments avec sémantique commune VS <div> regroupe des éléments (pure mise en forme) -->
+        <section id="about" style="margin: 20px;">
+            <h5>À propos du projet</h5>
+            <hr width="200px">
+            <p>
+                Ce site web a été réalisé dans le cadre d’un <strong>projet d’étude de Licence 2 Informatique</strong>
+                à l’<strong>Université de Bretagne Occidentale (UBO)</strong>.  
+                Il a pour objectif d’explorer et de présenter l’univers des <strong>Pokémon</strong> à travers des
+                données, illustrations et fonctionnalités interactives.
+            </p>
+        </section>
+
+        <br><br>
+        <div class="row" style="padding: 10px;">
+            <div class="col-md-8">
+                <img src="img/Logo-ubo.png" alt="logo_UBO" width="150px" height="80px" style="opacity: 0.7; margin: 10px;">
+                <img src="img/pokemon_company.png" alt="The_Pokémon_Company" width="150px" height="80px" style="opacity: 0.6; margin: 10px;">
+            </div>
+            <div class="col-md-4">
+                <br>
+                <button type="button" class="btn btn-secondary" onclick="retour_accueil()">Acceuil</button>
+            </div>
+        </div>
+
+        <br><br><br><br><br>
+        <footer style="background-color: #f5f5f5; ">
+            <p>Projet d'étude – Licence 2 Informatique – Université de Bretagne Occidentale (UBO)</p>
+            <p>Site web réalisé dans le cadre d’un projet universitaire sur le thème <strong>Pokémon</strong>.</p>
+            <p><small>&copy; 2025 – Tous droits réservés.</small></p>
+        </footer>
+
+
+    </div>
+
+    <!-- Lien vers JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
