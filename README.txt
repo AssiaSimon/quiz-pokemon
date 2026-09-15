@@ -18,26 +18,25 @@ ______________ Attributs d’une question (BDD):
 
 ______________ Arborescence du projet: 
 
-DWC/
-|___ projetweb/
-|   |___ index.html
-|   |___ jeu.html
-|   |___ apprendre.html
-|   |___ statistiques.html
-|   |___ a_propos.html
-|   |___ detail.html
-|   |___ README.txt
-|   |___ css /
-|   |   |___ style.css
-|   |___ js /
-|   |   |___ scripts.js
-|   |   |___ jeu.js
-|   |   |___ details.js
-|   |   |___ statistiques.js
-|   |___ data /
-|   |   |___ bdd.xml
-|   |___ img /
-|   |   |___ images du projet
+quiz-pokemon/
+|___ index.html
+|___ jeu.html
+|___ apprendre.html
+|___ statistiques.html
+|___ a_propos.html
+|___ detail.html
+|___ README.txt
+|___ css /
+|   |___ style.css
+|___ js /
+|   |___ scripts.js
+|	|___ jeu.js
+|   |___ details.js
+|   |___ statistiques.js
+|___ data /
+|   |___ bdd.xml
+|___ img /
+|   |___ images du projet
 
 
 ______________ BDD – Récupération et affichage: loadXMLDoc() et fetchData()
