@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokémon - Jeu</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8">
+    <!-- Rendre une page responsive - s'adapte automatiquement à la taille -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Lien vers CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <!-- Lien vers CSS de Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Lien vers Google Fonts por Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Lien vers Google Fonts pour Press Start 2P -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="js/jeu.js" defer></script>
+</head>
+<body onload="loadXMLDoc()">
+    <div id="app_info" width="400px">
+        <div id="app_menu">
+            <img src="img/Pokemon_logo_grand.png" height="80px" width="200px">
+            <hr>
+            <a href="index.html"><ul><img src="img/accueil.png" height="40px" width="40px">  Acceuil</ul></a>
+            <a href="jeu.html"><ul class="selected"><img src="img/gamepad.png" height="40px" width="40px">  Jeu</ul></a>
+            <a href="apprendre.html"><ul><img src="img/learn.png" height="40px" width="40px">  Apprendre</ul></a>
+            <a href="statistiques.html"><ul><img src="img/bargraph.png" height="40px" width="40px">  Statistiques</ul></a>
+            <hr>
+            <br>
+            <a href="a_propos.html"><ol id="propos">À propos</ol></a>
+            <br>
+            <ol>Version 1.0</ol>
+            <ol>Projet universitaire UBO</ol>
+            <br>
+            <ol style="font-size: 11px;">&copy; 2025 – Tous droits réservés</ol>
+        </div>
+    </div>
+    <div id="content">
+        <br>
+        <p>
+            <img src="img/Pokebola.png" height="15px" width="15px">
+            <img src="img/direction-icon.png" height="14px" width="14px">
+            Jeu
+        </p>
+        <hr>
+        <div class="container" id="zoneJeu">
+            <div class="heading">
+                <img src="img/pokeball_bar.png" height="20px" width="20px">
+                <div class="contenu_heading">
+                    <h5><small>POKEQUIZ</small></h5>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <h5>Plus qu'un jeu, une quête.</h5>
+                <hr>
+                <p>Deviens le meilleur, comme personne ne l'a jamais été !</p>
+                <p><strong>Lance-toi </strong>dans l’aventure et <strong>bats</strong> tous les records !</p>
+                <br>
+                <img src="img/arrow-bar-right.svg" alt="arrow" height="50px" width="50px" style="margin-left: 100px;">
+                <button type="button" class="btn btn-warning btn-lg" onclick="getTheme()" style="box-shadow: 2px 2px 5px #e0e0e0; margin-top: 10px;"> 
+                    <img src="img/pokemon_start.png" alt="game_img" height="70px" width="70px"> 
+                    <strong>START</strong>
+                </button>
+            </div>
+            <br><br> 
+            <div class="heading"></div>
+            <br>
+        </div>
+    </div>
+    <!-- Lien vers JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html> 

@@ -1,0 +1,259 @@
+/* Mise en page */
+ 
+body{
+    display: flex; 
+    flex-direction: row;
+    font-family: Lato,proxima-nova,Helvetica Neue,Arial,sans-serif;
+    font-weight: 400;
+    background-color: #252525 !important;
+    margin: 0; 
+}
+
+#app_info{
+    display: flex; 
+    flex-direction: column;
+    background-color: #252525;
+    position: fixed; /* L’élément est fixé à un endroit précis dans 
+    la fenêtre du navigateur, même quand on défile la page.*/
+    top: 0; 
+    left: 0;
+    width: 270px; /* largeur fixe pour la barre verticale */
+    height: 400px; 
+}
+
+#app_menu{
+    color: #e0e0e0;
+    font-size: larger;
+    padding: 20px;
+}
+
+#menu{
+    color:#e0e0e0;
+    font-size: larger;
+    text-decoration: none; 
+}
+
+#app_menu ul:hover, #propos:hover{
+    background: #404040;
+    color:  #e0e0e0; 
+    text-decoration: none; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+}
+
+a{
+    text-decoration: none !important; 
+    color:#e0e0e0 !important;
+}
+
+#propos{
+    background-color: #2C2C2C;
+    color:#e0e0e0;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    font-size: medium ;
+}
+
+.selected{
+    background-color: #2C2C2C;
+    color:#e0e0e0;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    font-size: medium ;
+}
+
+#content{
+    padding-left:30px;
+    padding-right:30px;
+    padding-bottom:30px;
+    background-color: white;
+    position: relative; /*L’élément reste dans le flux normal de la page, 
+    mais on peut le décaler légèrement par rapport à sa position d’origine 
+    avec top, left, right, ou bottom.  -> scrollbar s'affiche automatiquement 
+    par le navigateur */
+    top: 0;
+    left: 270px;  /* espace réservé au menu */
+    max-width: 800px; /* évite le dépassement horizontal */
+    min-height: 700px;
+    min-width: 700px; 
+}
+
+hr{
+    border: 1px solid #e1e4e5;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+ol ,ul{
+    padding-right: 30px;
+}
+
+ol{
+    font-size: 14px;
+}
+
+.heading{
+    background-color: #2C2C2C;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    color: #e0e0e0; 
+}
+
+.contenu_heading{
+    margin-left: 20px;
+    padding-left: 20px;
+    color: #e0e0e0; 
+    border-left: 1px solid #cfcfcf; 
+}
+
+h5{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300; 
+  letter-spacing: 1px; /* pour un effet plus lisible */
+  text-transform: uppercase; /* style titre */
+}
+
+h1{
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.theme{
+    border: 1px solid black; 
+    border-radius: 50px;
+    background-color: #252525;
+}
+
+.theme p{
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.theme_head{
+    border: 1px solid black; 
+    border-radius: 60px;
+    background-color:#f0eded; 
+}
+
+.theme_head:hover{
+    background-color: #b8d6e0;
+}
+
+footer{
+    text-align: center; 
+    margin-top: 40px; 
+    padding: 10px; 
+    color:#252525; 
+    font-size: 15px;
+}
+
+/* sélectionne tous les éléments <footer> qui sont 
+à l’intérieur d’un <blockquote> */
+
+.event {
+    /* box-shadow: [décalage horizontal] 
+    [décalage vertical] [flou] [optionnel: étendue] [couleur];*/
+    box-shadow: 2px 2px 5px #e0e0e0;
+    background-color: #F7F7FA;
+    padding: 15px;
+    margin: 10px 0; /* margin: [vertical] [horizontal];*/
+    border-top-right-radius: 50px;
+}
+
+.quote {
+    border-radius: 30px;
+    background-color:  #2C2C2C;
+    color: #e0e0e0; 
+    padding: 25px;
+    margin: 10px 0; /* margin: [vertical] [horizontal];*/
+}
+
+.a_details{
+    text-decoration: underline !important; 
+    color:blue !important;
+}
+
+.rechercheZone, .filtreZone{
+    display: flex; 
+    align-items: center; 
+}
+
+.filtreZone img:active, .rechercheZone img:active{
+    border: 1px solid #707070 !important; 
+    background-color: #f0eded; 
+}
+
+td, tr{
+    padding: 10px;
+}
+
+.td_details{
+    border-radius: 10px;
+    background-color:  #2C2C2C;
+    color: #e0e0e0; 
+    text-align: center; 
+    padding: 15px 15px 15px 15px; /* top right bottom left */
+}
+
+.explication_details{
+    border-radius: 10px;
+    background-color:  #2C2C2C;
+    color: #e0e0e0; 
+    text-align: center; 
+}
+
+#zoneQuestion{
+    background-color:  #2C2C2C;
+    border-radius: 10px;
+    color: #e0e0e0;
+    padding: 15px; 
+}
+
+input{
+    padding: 5px; 
+}
+
+.reponses{
+    text-align: center;
+    background-color: #e0e0e0;
+    color: #2C2C2C; 
+    padding: 18px;
+    margin: 10px; 
+}
+
+#questionPage{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px; 
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+#questionPage input {
+    /* espace entre les boutons 
+       margin: <vertical> <horizontal>; */
+    margin: 0 3px;  
+}
+
+.reponses input{
+    width: 20px; 
+    height: 20px; 
+    margin-right: 20px;
+}
+
+.imgNavigation:active {
+    /* pendant le clic -> s’applique brièvement au moment du clic */
+    background-color: #2C2C2C;
+    box-shadow: 2px 2px 5px #e0e0e0;
+}
+
+.myCanvas{
+    background-color: white;
+    border: 1px solid black; 
+}

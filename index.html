@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokémon - Acceuil</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Lien vers CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Lien vers Google Fonts por Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="js/jeu.js" defer></script>
+</head>
+
+<body onload="loadXMLDoc()">
+    <div id="app_info" width="400px">
+        <div class="" id="app_menu">
+            <img src="img/Pokemon_logo_grand.png" height="80px" width="200px">
+            <hr>
+            <a><ul class="selected"><img src="img/accueil.png" height="40px" width="40px">  Acceuil</ul></a>
+            <a href="jeu.html"><ul><img src="img/gamepad.png" height="40px" width="40px">  Jeu</ul></a>
+            <a href="apprendre.html"><ul><img src="img/learn.png" height="40px" width="40px">  Apprendre</ul></a>
+            <a href="statistiques.html"><ul><img src="img/bargraph.png" height="40px" width="40px">  Statistiques</ul></a>
+            <hr>
+            <br>
+            <a href="a_propos.html"><ol id="propos">À propos</ol></a>
+            <br>
+            <ol>Version 1.0</ol>
+            <ol>Projet universitaire UBO</ol>
+            <br>
+            <ol style="font-size: 11px;">&copy; 2025 – Tous droits réservés</ol>
+        </div>
+    </div>
+    <div id="content">
+        <br>
+        <p>
+            <img src="img/Pokebola.png" height="15px" width="15px">
+            <img src="img/direction-icon.png" height="14px" width="14px">
+            Acceuil
+        </p>
+        <hr>
+        <div class="container-fluid" id="zoneJeu">
+            <h5>Sélectionne ton thème et démarre le quiz Pokémon 
+                <img src="img/pokemon_start_yellow.png" alt="game_img" height="70px" width="70px"> 
+            </h5>
+            <hr style="width: 500px">
+            <br>
+            <div class="row">
+                <!-- Inserer une ligne -->
+                <div class="col-md-11 p-3 m-2 theme" style="background-image: fixed url('img/normal.png'); ">
+                    <!-- Inserer une colonne -->
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <img src="img/normal.png" alt="Aléatoire" width="50px" height="50px">
+                        Quiz Aléatoire
+                    </h1>
+                    <p>Quiz Pokémon aléatoire : sauras‑tu attraper toutes les réponses ?</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-5 p-3 m-2 theme">
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <!--le mot-clé "this" représente le <div> sur lequel on a cliqué -->
+                        <img src="img/eau.png" alt="Eau" width="50px" height="50px">
+                        Eau
+                    </h1>
+                    <p>Que les flots du savoir te guident !</p>
+                </div>
+                <div class="col-md-5 p-3 m-2 theme">
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <img src="img/foudre.png" alt="Electrik" width="50px" height="50px">
+                        Electrik
+                    </h1>
+                    <p>Teste ton énergie et électrise le quiz !</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-5 p-3 m-2 theme">
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <img src="img/feu.png" alt="Feu" width="50px" height="50px">
+                        Feu
+                    </h1>
+                    <p>As-tu assez de chaleur pour tenir jusqu’au bout ?</p>
+                </div>
+                <div class="col-md-5 p-3 m-2 theme">
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <img src="img/poison.png" alt="Poison" width="50px" height="50px">
+                        Poison
+                    </h1>
+                    <p>Saura-tu résister au poison des mauvaises réponses ?</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-5 p-3 m-2 theme">
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <img src="img/plante.png" alt="Plante" width="50px" height="50px">
+                        Plante
+                    </h1>
+                    <p>Ne fane pas avant la dernière question !</p>
+                </div>
+                <div class="col-md-5 p-3 m-2 theme">
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <img src="img/psy.png" alt="Plante" width="50px" height="50px">
+                        Psy
+                    </h1>
+                    <p>Télépathie conseillée pour trouver les bonnes réponses !</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-11 p-3 m-2 theme" style="background-image: fixed url('img/normal.png'); ">
+                    <h1 class="theme_head" onclick="setTheme(this)">
+                        <img src="img/question.png" alt="LotQuestion" width="50px" height="50px">
+                        Lot de Questions
+                    </h1>
+                    <p>Quiz Pokémon : Un lot de questions en vrac</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lien vers JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

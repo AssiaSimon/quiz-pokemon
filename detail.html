@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokémon - Détails</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!-- Lien vers CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Lien vers Google Fonts por Roboto Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="js/details.js"></script>
+</head>
+<body onload="loadXMLDoc()">
+    <div id="app_info" style="width:'400px'">
+        <div id="app_menu">
+            <img src="img/Pokemon_logo_grand.png" height="80px" width="200px">
+            <hr>
+            <a href="index.html"><ul><img src="img/accueil.png" height="40px" width="40px">  Acceuil</ul></a>
+            <a href="jeu.html"><ul><img src="img/gamepad.png" height="40px" width="40px">  Jeu</ul></a>
+            <a href="apprendre.html"><ul><img src="img/learn.png" height="40px" width="40px">  Apprendre</ul></a>
+            <a href="statistiques.html"><ul><img src="img/bargraph.png" height="40px" width="40px">  Statistiques</ul></a>
+            <hr>
+            <br>
+            <a href="a_propos.html"><ol id="propos">À propos</ol></a>
+            <br>
+            <ol>Version 1.0</ol>
+            <ol>Projet universitaire UBO</ol>
+            <br>
+            <ol style="font-size: 11px;">&copy; 2025 – Tous droits réservés</ol>
+        </div>
+    </div>
+    <div id="content" style="width:fit-content;">
+        <br>
+        <p>
+            <img src="img/Pokebola.png" height="15px" width="15px">
+            <img src="img/direction-icon.png" height="14px" width="14px">
+            Détails
+        </p>
+        <hr>
+        <br>
+        <h5>
+            <img src="img/pk_ball_opened.png" height="30px" width="30px">
+            Information sur Pokémon
+        </h5>
+        <hr width="300px">
+        <div class="container-fluid">
+            <img id="pkImage" width="500px" max-height="500px">
+        </div>
+        <br>
+        <table>
+            <tr>
+                <td><div class="container-fluid td_details">Type</div></td>
+                <td><input type="text" id="pkType"></td>
+            </tr>
+            <tr>
+                <td><div class="container-fluid td_details">Question</div></td>
+                <td>
+                    <textarea id="pkQuestion" style="width: 600px; height: fit-content;"></textarea>
+                    <!-- <textarea> prévu pour les textes multilignes, conserve les sauts de ligne dans le fichier xml-->
+                </td>
+            </tr>
+            <tr>
+                <td><div class="container-fluid td_details">Point</div></td>
+                    <td><input type="text" id="pkPoint"></td>
+                </tr>
+                <tr>
+                    <td><div class="container-fluid td_details">Bonne réponse</div></td>
+                    <td><input type="text" id="pkReponse"></td>
+                    <!-- <input type="text">  -> champ monoligne
+                    - n’affiche qu’une seule ligne de texte,
+                    - ignore les retours à la ligne (\n),
+                    - masque visuellement ce qui dépasse de la largeur visible
+                    -->
+                </tr>
+        </table>
+        <br>
+        <div class="container-fluid explication_details"><b>Explication</b></div>
+        <br>
+        <div id="pkExplication"></div>
+    </div>
+    <!-- Lien vers JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html> 
