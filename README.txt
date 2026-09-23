@@ -1,10 +1,10 @@
-______________ Projet: 
+# Projet: 
 
 Developper un jeu en ligne sur la thématique de Pokémon avec 3 interfaces obligatoires: interface jeu, interface apprendre, interface statistiques.
 
 
 
-______________ Attributs d’une question (BDD): 
+## Attributs d’une question (BDD): 
 
 - id : identifiant unique de la question
 - image : nom du fichier image associé à la question
@@ -16,7 +16,7 @@ ______________ Attributs d’une question (BDD):
 - explication : explication ou justification de la bonne réponse
 
 
-______________ Arborescence du projet: 
+## Arborescence du projet: 
 
 quiz-pokemon/
 |___ index.html
@@ -39,14 +39,14 @@ quiz-pokemon/
 |   |___ images du projet
 
 
-______________ BDD – Récupération et affichage: loadXMLDoc() et fetchData()
+## BDD – Récupération et affichage: loadXMLDoc() et fetchData()
 
-____ Objectif: 
+### Objectif: 
 Afficher les données XML dans un tableau HTML en utilisant des fonctions JavaScript : loadXMLDoc() et fetchData().
 
 On instancie une nouvelle requête XMLHttpRequest : let xmlhttp = new XMLHttpRequest();
 
-____ La fonction loadXMLDoc() permet de charger un fichier XML depuis un serveur distant et à traiter ses données une fois la réponse reçue.
+#### La fonction loadXMLDoc() permet de charger un fichier XML depuis un serveur distant et à traiter ses données une fois la réponse reçue.
 
 1. Déclenche une requête HTTP pour récupérer un fichier XML depuis une URL avec la méthode "open()" qui initialise la requête avec la méthode 'GET' et la méthode "send()" envoie la requête au serveur: 
 	- xmlhttp.open("GET", "https://obiwan.univ-brest.fr/~e21811674/data/bdd.xml", true);
@@ -60,7 +60,7 @@ ____ La fonction loadXMLDoc() permet de charger un fichier XML depuis un serveur
 4. Appelle la fonction fetchData() pour traiter le XML reçu  
 
 
-____ La fonction fetchData() permet de lire les données XML récupérées par la requête et à les afficher sous forme de tableau HTML.
+#### La fonction fetchData() permet de lire les données XML récupérées par la requête et à les afficher sous forme de tableau HTML.
 
 1. Récupère le document XML renvoyé par le serveur : let xmlDoc = xmlhttp.responseXML;
 2. Crée un tableau vide pour stocker les questions: data = [];
@@ -71,7 +71,7 @@ ____ La fonction fetchData() permet de lire les données XML récupérées par l
      }
 5. Appelle la fonction display data pour afficher les données sous forme de tableau HTML: displayData();
 
-____ La fonction displayData() permet de lire les données XML récupérées par la requête et à les afficher sous forme de tableau HTML.
+#### La fonction displayData() permet de lire les données XML récupérées par la requête et à les afficher sous forme de tableau HTML.
 
 1. Crée un tableau HTML stocké dans une chaine "table" initialisée avec les entêtes du tableau: let table = "<tr><th>#</th><th>Image</th><th>Thème</th><th>Question</th><th>Reponse 1</th><th>Reponse 2</th><th>Reponse 3</th><th>Reponse 4</th><th>Reponse Correcte</th><th>Point</th><th></th></tr>";
 2. Parcourt les questions dans "data" et remplit le tableau avec les attributs d'une question dans une même ligne du tableau (id, theme, contenu, response1, response2, response3, response4, bonne_reponse, point) : 
@@ -107,16 +107,16 @@ ____ La fonction displayData() permet de lire les données XML récupérées par
  document.getElementById("data").innerHTML = table;
 
 
-______________ Interface "Apprendre" - Manuel d'utilisation:
+## Interface "Apprendre" - Manuel d'utilisation:
 
-____ Objectif: 
+### Objectif: 
 L'interface "Apprendre" permet au joueur de consulter les questions, voir les détails des questions pour apprendre à jouer.
 
-____ Accès:
+### Accès:
 1. Ouvrir le fichier index.html dans un navigateur web.
 2. Cliquer sur l'onglet Apprendre dans le menu de navigation.
 
-____ Fonctionnalités:
+### Fonctionnalités:
 1. Consulter la liste des questions paginée (10 questions par page).
 2. Voir les détails d’une question avec une explication en cliquant sur le lien "Details" qui redirige l'utilisateur vers la page detail.html.
 3. Filter les questions par thème (type de Pokémon : Eau, Feu, Plante, Psy, Poison, Électrick) avec la fonction filtrerData().
@@ -124,7 +124,7 @@ ____ Fonctionnalités:
 5. Naviguer entre les pages de questions affichant les données des questions avec les boutons numérotés en bas de la page (10 questions par page) avec les fonctions showPageLinks() qui affiche les boutons de pages et loadPage(pageNumber) qui recharge les données correspondantes à afficher par page.
 6. Navigation entre les interfaces du jeu via le menu de navigation.
 
-____ Remarques techniques:
+### Remarques techniques:
 _ Les données affichées proviennent du fichier XML bdd.xml déployé sur le serveur obiwan qui est chargé par la fonction loadXMLDoc().
 _ Les questions sont stockées sous forme d'éléments <question> contenant leurs attributs (id, theme, contenu, réponses, etc).
 _ Les fonctions principales sont: 
