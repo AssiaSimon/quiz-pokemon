@@ -125,12 +125,12 @@ L'interface "Apprendre" permet au joueur de consulter les questions, voir les d�
 6. Navigation entre les interfaces du jeu via le menu de navigation.
 
 ## Remarques techniques:
-_ Les données affichées proviennent du fichier XML bdd.xml déployé sur le serveur obiwan qui est chargé par la fonction loadXMLDoc().
-_ Les questions sont stockées sous forme d'éléments <question> contenant leurs attributs (id, theme, contenu, réponses, etc).
-_ Les fonctions principales sont: 
-   . fetchData() -> récupère les questions depuis le XML, 
-   . displayData() -> affiche les questions dans un tableau HTML, 
-   . filterData() -> filtre selon le thème choisi de la liste déroulante, 
-   . sortData() -> trie la liste des questions, 
-   . showPageLinks() -> gère la pagination, 
-   . rechercheData() -> recherche et affiche les éléments selon un thème choisi ou l'id de la question choisie.
+	_ Les données affichées proviennent du fichier XML bdd.xml déployé sur le serveur obiwan qui est chargé par la fonction loadXMLDoc().
+	_ Les questions sont stockées sous forme d'éléments <question> contenant leurs attributs (id, theme, contenu, réponses, etc).
+	_ Les fonctions principales sont: 
+		. fetchData() -> récupère les questions depuis le XML, 
+		. displayData() -> affiche les questions dans un tableau HTML, 
+		. filterData() -> filtre selon le thème choisi de la liste déroulante, 
+		. sortData() -> trie la liste des questions, 
+		. showPageLinks() -> gère la pagination, 
+		. rechercheData() -> recherche et affiche les éléments selon un thème choisi ou l'id de la question choisie.
